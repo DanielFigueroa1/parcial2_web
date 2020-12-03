@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parcial2</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+
+     <h1>Julimarketing</h1>
+
+     <h2>Pregunta Actual</h2>
+
+      <div id="preguntasContainer"></div>     
+
+     Escriba aqui la pregunta actual del focus group
+
+     <div id="espacioPregunta">
+
+         <input id="preguntaEscrita" placeholder="Pregunta nueva" type="text">
+
+         <button id="botonSubir">Subir</button>
+     </div>
+
+     <h2>Historico</h2>
+
+         <div id="contenidoPrevioHistorico"></div>
+
+    </body>
+
+    </html>
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyCGbQ2ZnR3AJ5bEoPAUdompoTG5cppR-Zs",
+          authDomain: "danielfigueroa-parcial2.firebaseapp.com",
+          databaseURL: "https://danielfigueroa-parcial2.firebaseio.com",
+          projectId: "danielfigueroa-parcial2",
+          storageBucket: "danielfigueroa-parcial2.appspot.com",
+          messagingSenderId: "3995934940",
+          appId: "1:3995934940:web:3a0db7e86ecd1c85e55419",
+          measurementId: "G-8GVN96LH85"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+    <script src="js/index.js"></script>
+    <script src="components/Pregunta.js"></script>
+    
