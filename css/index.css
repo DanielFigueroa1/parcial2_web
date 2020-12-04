@@ -1,0 +1,64 @@
+#texto {
+    display: flex;
+    justify-content: center;
+}
+
+#texto2 {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 4em;
+}
+
+#texto3 {
+    display: flex;
+    justify-content: center;
+}
+
+#texto4 {
+    display: flex;
+    justify-content: center;
+}
+
+#preguntasContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#espacioPregunta {
+    display: flex;
+    justify-content: center; 
+}
+
+#preguntaEscrita {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#botonSubir {
+    display: flex;
+    justify-content: center;
+}
+
+#contenidoPrevioHistorico {
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    justify-content: center;
+    align-items: center;
+    background: rgb(207, 209, 214);
+    color: black;
+    border-radius: 3px;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    position: relative;
+}
+
+#contenidoPrevioHistorico2 {
+    display: flex;
+    justify-content: center;
+}
+
